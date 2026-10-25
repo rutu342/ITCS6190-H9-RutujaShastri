@@ -1,0 +1,10 @@
+# Generated input data — do not commit
+/shared-folder/input/*.csv
+
+# Spark output metadata — keep only result CSVs
+/shared-folder/output/**/_SUCCESS
+/shared-folder/output/**/*.crc
+
+# macOS metadata
+.DS_Store
+._*
